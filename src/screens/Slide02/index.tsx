@@ -4,7 +4,7 @@ import { styles } from "./styles"
 import { ButtonSlide } from "../../components/ButtonSlide"
 import { IPagina } from "../../../App";
 
-export function Slide01({setPageI}:IPagina) {
+export function Slide02({setPageI}:IPagina) {
     const slide = require('../../assets/Tela_de_Fundo.png')
     return(
         <ImageBackground source={slide} style={styleContainer.container}>
