@@ -7,6 +7,15 @@ export const styles = StyleSheet.create({
         backgroundColor: colors.cor_fundo,
         justifyContent: 'center'
         
+    },
+
+    buttonContainer: {
+        flex: 1,
+        bottom:10,
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'flex-end'
+
     }
 
 })
