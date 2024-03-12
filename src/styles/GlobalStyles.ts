@@ -7,10 +7,21 @@ export const colors = {
 
 }
 
+export const fonts = {
+    primary: 'AlegreyaSC_400Regular'
+}
+
 export const styleContainer = StyleSheet.create({
     container: {
         flex: 1,
+    },
+
+    text: {
+        fontFamily: fonts.primary
+
     }
 
-}
+},
+
 )
+

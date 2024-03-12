@@ -5,7 +5,8 @@ export const styles = StyleSheet.create({
     fundo: {
         flex: 1,
         backgroundColor: colors.cor_fundo,
-        justifyContent: 'center'
+        justifyContent: 'center',
+        alignItems: 'center'
         
     },
 
@@ -14,7 +15,24 @@ export const styles = StyleSheet.create({
         bottom:10,
         flexDirection: 'row',
         justifyContent: 'space-around',
-        alignItems: 'flex-end'
+        alignItems: 'flex-end',
+        width: 400
+
+    },
+
+    img: {
+        width: 220,
+        height: 220,
+        marginTop: 150,
+        display: 'flex'
+
+    },
+
+    text: {
+        width: 220,
+        height: 220,
+        marginTop: 150,
+        display: 'flex'
 
     }
 
