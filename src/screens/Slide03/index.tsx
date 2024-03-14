@@ -12,15 +12,15 @@ export function Slide03({setPageI}:IPagina) {
         <ImageBackground source={slide} style={styleContainer.container}>
             <View style={styles.fundo}>
 
-                <View>
+                <View style={styles.centralizar}>
                     <Image source={carrinho} style={styles.img}></Image >
-                    <Text style={styleContainer.text}>HOME</Text>
+                    <Text style={styleContainer.text}>CARRINHO</Text>
                 </View>
 
                 <View style={styles.buttonContainer}>
-                    <ButtonSlide onPressI={() => setPageI(1)} />
-                    <ButtonSlide onPressI={() => setPageI(2)} />
-                    <ButtonSlide onPressI={() => setPageI(3)} />
+                    <ButtonSlide onPressI={() => setPageI(1)} cor={false}/>
+                    <ButtonSlide onPressI={() => setPageI(2)} cor={false}/>
+                    <ButtonSlide onPressI={() => setPageI(3)} cor={true}/>
                 </View>
 
             </View>

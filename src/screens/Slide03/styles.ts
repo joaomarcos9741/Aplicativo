@@ -28,12 +28,10 @@ export const styles = StyleSheet.create({
 
     },
 
-    text: {
-        width: 220,
-        height: 220,
-        marginTop: 150,
-        display: 'flex'
-
-    }
+    centralizar: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
 
 })

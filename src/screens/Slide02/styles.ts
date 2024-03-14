@@ -27,6 +27,13 @@ export const styles = StyleSheet.create({
         marginTop: 80,
         display: 'flex'
 
-    }
+    },
+
+
+    centralizar: {
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
 
 })
