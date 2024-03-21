@@ -11,7 +11,6 @@ export const styles = StyleSheet.create({
     },
 
     buttonContainer: {
-        flex: 1,
         bottom:10,
         flexDirection: 'row',
         justifyContent: 'space-around',
@@ -23,13 +22,12 @@ export const styles = StyleSheet.create({
     img: {
         width: 220,
         height: 220,
-        marginTop: 150,
         display: 'flex'
 
     },
 
     centralizar: {
-        display: 'flex',
+        flex: 1,
         alignItems: 'center',
         justifyContent: 'center'
     },
